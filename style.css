@@ -1,0 +1,105 @@
+html{
+  box-sizing : border-box;
+  font-family : 'Karla';
+  font-size : 16px;
+}
+body{
+  padding : 30px;
+}
+*,*:before,*:after{
+  box-sizing : inherit;
+}
+h2,h4,p{
+  margin : 0;
+}
+.card{
+  width : 600px;
+  height : 400px;
+  box-shadow : 2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius : 5px;
+  overflow : hidden;
+}
+.top-box{
+  width : 100%;
+  height : 45%;
+  padding : 25px;
+}
+.bottom-box{
+  width : 100%;
+  height : 55%;
+  color : white;
+}
+.left-box{
+  display : inline-block;
+  width : 50%;
+  height : 100%;
+  vertical-align : top;
+  background-color : #2ab2af;
+  padding : 25px;
+}
+.right-box{
+  display : inline-block;
+  width : 50%;
+  height : 100%;
+  vertical-align : top;
+  background-color : #2ebfbd;
+  padding : 25px;
+}
+
+.top-box h2{
+  color : #2ebfbd;
+  margin-bottom : 15px;
+}
+.top-box h4{
+  color : #c0df34;
+  margin-bottom : 15px;
+}
+.top-box p{
+  color : #98a6bd;
+}
+button{
+  color : white;
+  background-color : #c0df34;
+  border : none;
+  padding : 10px;
+  width : 100%;
+  border-radius : 5px;
+  height : 45px;
+  font-weight : 700;
+}
+button:hover{
+  cursor : pointer;
+  background-color : #a9c42d;
+  transform : scale(1.02);
+}
+#price{
+  font-weight : 700;
+  font-size : 1.4rem;
+}
+.left-box h4{
+  margin-bottom : 15px;
+}
+.left-box p{
+  font-size : 0.9rem;
+  margin-bottom : 20px;
+}
+#permo, #price{
+  display : inline-block;
+}
+#permo{
+  position : relative; 
+  top : -3px;
+  font-zie: 0.8rem;
+  opacity : 0.7;
+  margin-left : 5px;
+}
+#price-container{
+  margin-bottom : 10px;
+}
+
+ul{
+  padding : 0;
+  list-style : none;
+  font-size : 0.8rem;
+  opacity : 0.8;
+}
